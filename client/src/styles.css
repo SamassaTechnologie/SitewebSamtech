@@ -1,0 +1,149 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #123;
+  background: #f4f7fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #eaf5fa 0%, #f4f7fa 35%, #ffffff 100%);
+}
+
+.hero {
+  background: #2e8fb5;
+  color: #fff;
+  padding: 2rem 1.2rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.contact-row {
+  display: grid;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.layout {
+  width: min(1100px, 92%);
+  margin: 1rem auto 3rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid #d5e6ee;
+  padding: 1rem;
+  box-shadow: 0 10px 24px rgba(31, 92, 115, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #1f6f8c;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.grid-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.7rem;
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #bdd5df;
+  border-radius: 8px;
+  padding: 0.55rem 0.7rem;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: #2e8fb5;
+  color: #fff;
+  padding: 0.62rem 0.9rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1f6f8c;
+}
+
+.danger {
+  background: #d04f57;
+}
+
+.danger:hover {
+  background: #a83840;
+}
+
+.stats {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.stats article {
+  background: #f4fbff;
+  border: 1px solid #d4e8f1;
+  border-radius: 10px;
+  padding: 0.7rem;
+}
+
+.stats h3 {
+  margin: 0;
+}
+
+.table-wrap {
+  margin-top: 0.8rem;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e3eef3;
+  text-align: left;
+  padding: 0.6rem;
+  font-size: 0.94rem;
+}
+
+.action-row {
+  display: flex;
+  gap: 0.4rem;
+}
