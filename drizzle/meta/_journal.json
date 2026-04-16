@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1776260645216,
+      "tag": "0000_lethal_aqueduct",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1776261146009,
+      "tag": "0001_opposite_saracen",
+      "breakpoints": true
+    }
+  ]
+}
